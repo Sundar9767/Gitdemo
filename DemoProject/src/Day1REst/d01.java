@@ -18,7 +18,7 @@ class d01 {
 	@Test
 	void test() {
 		Response res;
-		res= RestAssured.get("https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e34ab71c88caaf7e6c8e299d16e0df13");
+		res= RestAssured.get("https://rahulhettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e34ab71c88caaf7e6c8e299d16e0df13");
 		String body= res.getBody().asString();
 		System.out.println(body);
 		
